@@ -498,7 +498,12 @@ const jsonDb = new JSONDatabase();
 // Instantiate database delegate based on connectivity
 let prismaDelegate: any;
 
-if (process.env.DATABASE_URL && PrismaClientClass) {
+const isPlaceholderUrl = !process.env.DATABASE_URL || 
+                         process.env.DATABASE_URL.includes('placeholder') || 
+                         process.env.DATABASE_URL.includes('<username>') ||
+                         process.env.DATABASE_URL.includes('localhost:5432');
+
+if (process.env.DATABASE_URL && PrismaClientClass && !isPlaceholderUrl) {
   try {
     // Try to instantiate genuine PrismaClient
     if (!globalForPrisma.prisma) {
