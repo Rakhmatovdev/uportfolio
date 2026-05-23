@@ -41,6 +41,11 @@ export async function setSessionCookie(user: { id: string; username: string; ema
 // Clear Session cookie
 export async function clearSessionCookie() {
   const cookieStore = await cookies();
+  try {
+    cookieStore.delete(SESSION_COOKIE_NAME);
+  } catch (e) {
+    // Graceful fallback if delete is not supported in the active context
+  }
   cookieStore.set(SESSION_COOKIE_NAME, '', {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
