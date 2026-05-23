@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Studio haqida",
+    "whatWeDo": "Xizmatlar",
+    "portfolio": "Portfolio",
+    "team": "Jamoa",
+    "news": "Blog",
+    "faq": "FAQ",
+    "contact": "Aloqa"
+  },
+  "footer": {
+    "tagline": "Ertangi kun vafodorlari uchun premium raqamli tajribalarni yaratamiz.",
+    "newsletter": "Yangiliklardan boxabar bo'ling",
+    "newsletterDesc": "Bizning yangiliklar ro'yxatiga a'zo bo'ling va eng so'nggi dizayn trendlaridan xabardor bo'ling.",
+    "emailPlaceholder": "Email manzilingizni kiriting",
+    "subscribe": "Obuna bo'lish",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "links": "Tezkor havolalar",
+    "services": "Xizmatlar",
+    "contactInfo": "Bog'lanish"
+  },
+  "home": {
+    "hero": {
+      "tag": "KREATIV RAQAMLI STUDIYA",
+      "title1": "Raqamli olam",
+      "title2": "kelajagini yaratamiz",
+      "subtitle": "Biz Apple-style minimalizm, eng so'nggi texnologiyalar va hissiyotga boy dizaynni birlashtirib, birinchi qarashdanoq hayratda qoldiradigan premium mahsulotlarni yaratamiz.",
+      "ctaPrimary": "Ishlarni ko'rish",
+      "ctaSecondary": "Loyiha boshlash"
+    },
+    "stats": {
+      "projects": "Muvaffaqiyatli loyihalar",
+      "experience": "Yillik yuksak tajriba",
+      "satisfaction": "Mijozlar mamnuniyati",
+      "awards": "Soha mukofotlari"
+    },
+    "about": {
+      "tag": "BIZ HAQIMIZDA",
+      "title": "Biz e'tiborni tortadigan va o'sishni ta'minlaydigan brendlarni yaratamiz.",
+      "desc": "Dizaynerlar, muhandislar va brend-strateglaridan tashkil topgan ko'p tarmoqli jamoamiz ulkan maqsadlarga ega bizneslarni o'z sohasining peshqadamlariga aylantirish uchun hamkorlik qiladi. Biz shunchaki saytlar yaratmaymiz; biz raqamli meros qoldiramiz."
+    },
+    "cta": {
+      "title": "Keyingi katta loyihangizni boshlashga tayyormisiz?",
+      "subtitle": "Keling, brendingizni raqamli makonda yaqqol ajratib ko'rsatadigan g'ayrioddiy loyiha ustida birga ishlaymiz.",
+      "button": "Aloqaga chiqish"
+    }
+  },
+  "about": {
+    "header": {
+      "title": "Biz haqimizda",
+      "subtitle": "Bizning raqamli mahoratimiz ortida turgan insonlar, metodlar va qarashlar."
+    },
+    "story": {
+      "title": "Tariximiz",
+      "subtitle": "2018-yildagi jasoratli g'oyadan xalqaro dizayn jamoasigacha bo'lgan 2026-yilgacha bo'lgan yo'l.",
+      "2018": "Nafis tipografiya va estetik minimalizmga yo'naltirilgan ikki kishilik dizayn studiyasi sifatida tashkil etilgan.",
+      "2020": "Dizayn va ilg'or muhandislikni birlashtirgan to'liq xizmat ko'rsatadigan kreativ agentlikka aylandi.",
+      "2022": "Xalqaro filiallar ochildi va vizual mukammallik uchun nufuzli Awwwards mukofotlarini qo'lga kiritdi.",
+      "2024": "Yuqori unumdorlikka ega 3D interaktiv veb-ilovalar va spatial interfeyslarni ishlab chiqishda yetakchilik qilmoqda.",
+      "2026": "Avtonom agent tizimlari va yuqori darajada shaxsiylashtirilgan interfeyslarni joriy etish."
+    },
+    "stats": {
+      "experience": "Bozordagi yillar",
+      "team": "Xalqaro mutaxassislar",
+      "clients": "Mamnun mijozlar",
+      "growth": "Brendning o'rtacha o'sishi"
+    },
+    "mission": {
+      "title": "Missiya va Strategiya",
+      "missionTitle": "Missiyamiz",
+      "missionDesc": "Inson va kompyuter aloqasini yangi darajaga ko'tarib, jonli, intuitiv va vizual jihatdan mukammal mahsulotlarni yaratish.",
+      "visionTitle": "Kelajak viziyasi",
+      "visionDesc": "Raqamli makon chegaralaridan oshib o'tishni va bozorda etakchilik qilishni istagan brendlar uchun eng ishonchli kreativ hamkor bo'lish."
+    }
+  },
+  "whatWeDo": {
+    "header": {
+      "title": "Biz nima qilamiz",
+      "subtitle": "Biz raqamli tajribalarni eng yuqori darajaga ko'taruvchi eksklyuziv yechimlarni loyihalashtiramiz va yaratamiz."
+    },
+    "services": {
+      "design": {
+        "title": "Estetik UI/UX dizayn",
+        "desc": "Premium ko'rinishga ega bo'lgan va to'liq e'tiborni tortadigan kreativ interfeyslar, vizual tizimlar va eksklyuziv tartiblar."
+      },
+      "development": {
+        "title": "Yuqori texnologik ishlab chiqish",
+        "desc": "Next.js asosidagi tezkor va unumdor veb-tizimlar, murakkab yuklamalarga chidamli mukammal kod arxitekturasi."
+      },
+      "branding": {
+        "title": "Brending va Strategiya",
+        "desc": "Zamonaviy brendlarning qiyofasini belgilovchi yagona vizual til, puxta o'ylangan tipografiya va bozordagi o'rnini yaratamiz."
+      },
+      "immersive": {
+        "title": "3D va Immersiv texnologiyalar",
+        "desc": "Brauzer ichidagi interaktiv 3D saxnalar, murakkab animatsiyalar va foydalanuvchini jalb qiluvchi modellar."
+      }
+    },
+    "process": {
+      "title": "Ishlash jarayonimiz",
+      "subtitle": "G'oyadan tortib to ishga tushirishgacha bo'lgan sinchkov va to'liq shaffof ish tartibi.",
+      "discover": "1. Tadqiqot va Tahlil",
+      "discoverDesc": "Brend falsafasini, maqsadli auditoriyani, biznes vazifalarini va texnik imkoniyatlarini chuqur o'rganamiz.",
+      "design": "2. Vizual Konsept",
+      "designDesc": "Interfeys estetikasini eng yuqori premium darajaga yetkazgunimizcha tajriba o'tkazamiz, prototip yaratamiz va sayqallaymiz.",
+      "develop": "3. Texnik Dasturlash",
+      "developDesc": "Framer Motion animatsiyalari va mustahkam backendga ega modulli Next.js tizimini kodlaymiz.",
+      "deliver": "4. Chiqarish va Rivojlantirish",
+      "deliverDesc": "Saytni optimallashtiramiz, sinovdan o'tkazamiz, serverga joylashtiramiz va doimiy ravishda rivojlantirib boramiz."
+    }
+  },
+  "portfolio": {
+    "header": {
+      "title": "Tanlangan ishlar",
+      "subtitle": "Mukammal dizayn va yuqori tezlik o'zaro kesishgan raqamli mahsulotlar galereyasi."
+    },
+    "categories": {
+      "all": "Barcha ishlar",
+      "design": "Kreativ dizayn",
+      "development": "Dasturlash",
+      "branding": "Brending",
+      "threeD": "3D Immersiv"
+    },
+    "details": {
+      "client": "Mijoz",
+      "year": "Yil",
+      "services": "Xizmatlar",
+      "overview": "Loyiha tavsifi",
+      "results": "Natijalar va Ta'siri",
+      "visit": "Loyihaga o'tish",
+      "close": "Yopish"
+    }
+  },
+  "team": {
+    "header": {
+      "title": "Jamoamiz bilan tanishing",
+      "subtitle": "Elit dasturchilar, mohir dizaynerlar va kreativ strateglar ittifoqi."
+    },
+    "departments": {
+      "all": "Barcha a'zolar",
+      "design": "Dizaynerlar",
+      "engineering": "Muhandislar",
+      "strategy": "Strateglar",
+      "management": "Rahbariyat"
+    },
+    "viewBio": "Profil"
+  },
+  "news": {
+    "header": {
+      "title": "Studiya jurnali",
+      "subtitle": "Tipografiya, zamonaviy front-end arxitekturasi va dizayn kelajagi haqidagi fikrlarimiz."
+    },
+    "searchPlaceholder": "Maqola izlash...",
+    "readTime": "daqiqa o'qish",
+    "featured": "Asosiy yangilik",
+    "noResults": "Sizning so'rovingiz bo'yicha maqolalar topilmadi.",
+    "categories": {
+      "all": "Barcha maqolalar",
+      "trends": "Dizayn trendlari",
+      "tech": "Dasturlash",
+      "business": "Studiya yangiliklari"
+    }
+  },
+  "faq": {
+    "header": {
+      "title": "Tez-tez beriladigan savollar",
+      "subtitle": "Bizning ish jarayonlarimiz, texnologiyalar va hamkorlik shartlarimiz haqida batafsil ma'lumot."
+    },
+    "searchPlaceholder": "Savollarni izlash...",
+    "noResults": "Javoblar topilmadi. Boshqa so'z bilan izlab ko'ring.",
+    "categories": {
+      "all": "Barchasi",
+      "general": "Umumiy",
+      "process": "Ish jarayoni",
+      "tech": "Texnologiyalar",
+      "pricing": "Hamkorlik"
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Loyiha boshlash",
+      "subtitle": "Keling, bog'lanamiz va birgalikda raqamli kelajakni yaratamiz."
+    },
+    "form": {
+      "name": "To'liq ismingiz",
+      "namePlaceholder": "Eshmat Toshmatov",
+      "email": "Elektron pochta",
+      "emailPlaceholder": "eshmat@example.com",
+      "message": "Loyiha haqida ma'lumot",
+      "messagePlaceholder": "Loyihangiz haqida tushuncha, budjet va kutilayotgan muddatni yozing...",
+      "submit": "Xabarni jo'natish",
+      "sending": "Jo'natilmoqda...",
+      "successTitle": "Xabar muvaffaqiyatli yetkazildi!",
+      "successDesc": "Bizning bosh arxitektorimiz sizning xabaringizni o'rganib chiqib, 24 soat ichida bog'lanadi.",
+      "error": "Xabarni jo'natib bo'lmadi. Iltimos, qaytadan urinib ko'ring."
+    },
+    "info": {
+      "office": "Studiya manzili",
+      "socials": "Ijtimoiy tarmoqlarimiz",
+      "address": "O'zbekiston, Toshkent, Mo'minov ko'chasi, 7/1-uy, 100164"
+    }
+  },
+  "ui": {
+    "page404": {
+      "title": "Koinotda adashish",
+      "desc": "Siz izlayotgan sahifa raqamli atmosferamizdan tashqariga uchib ketgan ko'rinadi.",
+      "button": "Stansiyaga qaytish"
+    }
+  }
+}

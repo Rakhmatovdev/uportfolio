@@ -1,0 +1,518 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "balu",
+      "email": "admin@bexa.studio",
+      "passwordHash": "$2a$10$H8z2fP2/eMymLg1.gK55yOQpQ/gV4y1G5bO0c11p9O26W59s59K0a",
+      "phone": "+998901234567",
+      "roleId": "r1",
+      "role": "super_admin",
+      "createdAt": "2026-05-23T07:35:10.561Z",
+      "updatedAt": "2026-05-23T07:35:10.561Z"
+    }
+  ],
+  "roles": [
+    {
+      "id": "r1",
+      "name": "super_admin",
+      "description": "Complete system access",
+      "permissionIds": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8"
+      ]
+    },
+    {
+      "id": "r2",
+      "name": "admin",
+      "description": "Administrative control",
+      "permissionIds": [
+        "p1",
+        "p2",
+        "p4",
+        "p8"
+      ]
+    },
+    {
+      "id": "r3",
+      "name": "editor",
+      "description": "Content manager",
+      "permissionIds": [
+        "p1",
+        "p2",
+        "p4"
+      ]
+    },
+    {
+      "id": "r4",
+      "name": "moderator",
+      "description": "Community moderator",
+      "permissionIds": [
+        "p2",
+        "p8"
+      ]
+    },
+    {
+      "id": "r5",
+      "name": "user",
+      "description": "Standard registered user",
+      "permissionIds": []
+    }
+  ],
+  "permissions": [
+    {
+      "id": "p1",
+      "name": "create",
+      "description": "Create content"
+    },
+    {
+      "id": "p2",
+      "name": "update",
+      "description": "Update content"
+    },
+    {
+      "id": "p3",
+      "name": "delete",
+      "description": "Delete content"
+    },
+    {
+      "id": "p4",
+      "name": "publish",
+      "description": "Publish content"
+    },
+    {
+      "id": "p5",
+      "name": "manage_users",
+      "description": "Manage site users"
+    },
+    {
+      "id": "p6",
+      "name": "manage_roles",
+      "description": "Manage roles and permissions"
+    },
+    {
+      "id": "p7",
+      "name": "manage_settings",
+      "description": "Manage system settings"
+    },
+    {
+      "id": "p8",
+      "name": "manage_content",
+      "description": "Manage general content"
+    }
+  ],
+  "sessions": [],
+  "accounts": [],
+  "portfolio": [
+    {
+      "id": "1",
+      "titleUz": "Aura Interaktiv Ekotizimi",
+      "titleRu": "Интерактивная Экосистема Aura",
+      "titleEn": "Aura Interactive Ecosystem",
+      "categoryUz": "3D Modellashtirish",
+      "categoryRu": "3D Моделирование",
+      "categoryEn": "threeD",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
+      "descriptionUz": "Ambient va real-time yoritish tizimidagi 3D web platforma.",
+      "descriptionRu": "Веб-платформа 3D в реальном времени с эмбиентным освещением.",
+      "descriptionEn": "A complete dynamic 3D web platform representing an abstract spatial interface.",
+      "link": "https://aura.bexa.studio",
+      "order": 1,
+      "featured": true
+    },
+    {
+      "id": "2",
+      "titleUz": "Apex FinTex Brend Tizimi",
+      "titleRu": "Финтех Бренд Системы Apex",
+      "titleEn": "Minimalist FinTech Brand System",
+      "categoryUz": "Brending",
+      "categoryRu": "Брендинг",
+      "categoryEn": "branding",
+      "image": "https://images.unsplash.com/photo-1634973357973-f2ed255753e1?q=80&w=1200&auto=format&fit=crop",
+      "descriptionUz": "Apex Capital uchun Apple uslubidagi premium minimalizm brending.",
+      "descriptionRu": "Брендинг в стиле премиум минимализма Apple для Apex Capital.",
+      "descriptionEn": "We rebuilt Apex Capitals identity from scratch, shifting it towards Apple-style premium minimalism.",
+      "link": "https://apex.bexa.studio",
+      "order": 2,
+      "featured": true
+    },
+    {
+      "id": "3",
+      "titleUz": "Veloce Yuqori Hosildorlik Platformasi",
+      "titleRu": "Высокопроизводительная Платформа Veloce",
+      "titleEn": "Veloce High-Performance Platform",
+      "categoryUz": "Dasturlash",
+      "categoryRu": "Разработка",
+      "categoryEn": "development",
+      "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=1200&auto=format&fit=crop",
+      "descriptionUz": "Soniyasiga 10,000 so‘rovlarni qayta ishlay oladigan enterprise tizim.",
+      "descriptionRu": "Корпоративная система, способная обрабатывать 10 000 запросов в секунду.",
+      "descriptionEn": "A massive custom enterprise system capable of processing 10,000 real-time queries per second.",
+      "link": "https://veloce.bexa.studio",
+      "order": 3,
+      "featured": false
+    },
+    {
+      "id": "4",
+      "titleUz": "Noyob UI/UX Portfoliolar",
+      "titleRu": "Spatial Портфолио Фреймворк",
+      "titleEn": "Spatial Portfolio Framework",
+      "categoryUz": "Dizayn",
+      "categoryRu": "Дизайн",
+      "categoryEn": "design",
+      "image": "https://images.unsplash.com/photo-1618005198143-e5283b519a7f?q=80&w=1200&auto=format&fit=crop",
+      "descriptionUz": "Hashamatli dizayn galereyasi uchun magnit sichqoncha ta‘qibi interaktiv tizimi.",
+      "descriptionRu": "Интерактивная сетка для галереи роскошного дизайна с магнитным следованием мыши.",
+      "descriptionEn": "A high-concept grid system for a luxury design gallery, incorporating magnetic interactions.",
+      "link": "https://nova.bexa.studio",
+      "order": 4,
+      "featured": true
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "titleUz": "Zamonaviy Veb Dizayndagi Mikro-Animatsiyalar Inqilobi",
+      "titleRu": "Революция микроанимации в современном веб-дизайне",
+      "titleEn": "The Micro-Animation Revolution in Modern Web Design",
+      "categoryUz": "Trendlar",
+      "categoryRu": "Тренды",
+      "categoryEn": "trends",
+      "contentUz": "Kichik interaktiv o‘zgarishlar qanday qilib yirik hissiy bog‘liqliklarni yaratadi.",
+      "contentRu": "Как крошечные переходы создают мощную эмоциональную привязанность.",
+      "contentEn": "Explore how tiny interactive transitions build powerful emotional attachments, transforming standard layouts into delightful, human-focused spaces.",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
+      "date": "May 12, 2026",
+      "authorUz": "Elena Romanova",
+      "authorRu": "Елена Романова",
+      "authorEn": "Elena Romanova",
+      "slug": "micro-animation-revolution",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "titleUz": "Next.js 16 va Tailwind v4 Yordamida Edge Arxitekturasi",
+      "titleRu": "Архитектура Edge с Next.js 16 и Tailwind v4",
+      "titleEn": "Architecting for the Edge: Next.js 16 and Tailwind v4",
+      "categoryUz": "Texnologiyalar",
+      "categoryRu": "Технологии",
+      "categoryEn": "tech",
+      "contentUz": "Tailwind CSS v4 dagi yangi va chaqmoqdek tez kompilyatsiya qilish qobiliyatlari.",
+      "contentRu": "Подробный технический разбор новой сборки и рендеринга.",
+      "contentEn": "A deep architectural review of Tailwind's lightning-fast compilation, advanced CSS custom property bindings, and dynamic server components.",
+      "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=800&auto=format&fit=crop",
+      "date": "Apr 28, 2026",
+      "authorUz": "Sofia Kuznetsova",
+      "authorRu": "София Кузнецова",
+      "authorEn": "Sofia Kuznetsova",
+      "slug": "architecting-for-edge",
+      "featured": false
+    }
+  ],
+  "team": [
+    {
+      "id": "1",
+      "name": "Alisher Rakhmatov",
+      "roleUz": "Bosh Kreativ Direktor",
+      "roleRu": "Главный креативный директор",
+      "roleEn": "Principal Creative Director",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop",
+      "order": 1,
+      "twitter": "https://twitter.com",
+      "github": "",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "2",
+      "name": "Sofia Kuznetsova",
+      "roleUz": "Dasturlash Bo‘limi Boshlig‘i",
+      "roleRu": "Руководитель отдела разработки",
+      "roleEn": "Head of Engineering",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop",
+      "order": 2,
+      "twitter": "",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "3",
+      "name": "Elena Romanova",
+      "roleUz": "Bosh UI/UX Arxitektor",
+      "roleRu": "Ведущий архитектор UI/UX",
+      "roleEn": "Lead UI/UX Architect",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop",
+      "order": 3,
+      "twitter": "",
+      "github": "",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "4",
+      "name": "Marcus Vance",
+      "roleUz": "Brend Strategiya Boshlig‘i",
+      "roleRu": "Стратегический бренд-директор",
+      "roleEn": "Strategic Brand Lead",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop",
+      "order": 4,
+      "twitter": "https://twitter.com",
+      "github": "",
+      "linkedin": "https://linkedin.com"
+    }
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "questionUz": "Loyihani yaratish va topshirish jarayoningiz qanday?",
+      "questionRu": "Каков ваш процесс разработки и сдачи проектов?",
+      "questionEn": "What is your process for designing and engineering an Awwwards-level website?",
+      "answerUz": "Bizning ish jarayonimiz to‘rt bosqichdan iborat: Tadqiqot, Vizual Konseptlar, Texnik Qurilish va Ishga Tushirish.",
+      "answerRu": "Мы делим рабочий процесс на 4 этапа: Исследование, Визуальные концепты, Инжиниринг и Поддержка.",
+      "answerEn": "We divide our workflow into four distinct phases: Discovery (deep research), Visual Concepts (custom layouts and aesthetic prototyping), Technical Engineering (modular Next.js, Framer Motion transitions), and Launch & Evolution.",
+      "categoryUz": "Jarayon",
+      "categoryRu": "Процесс",
+      "categoryEn": "process",
+      "order": 1
+    },
+    {
+      "id": "2",
+      "questionUz": "Ko‘p tilli yordam (i18n) va qulaylikni qanday ta‘minlaysiz?",
+      "questionRu": "Как вы работаете с локализацией и доступностью?",
+      "questionEn": "How do you handle localization (i18n) and accessibility in your applications?",
+      "answerUz": "Biz Next.js App Router va mukammal optimallashtirilgan tarjima lug‘atlaridan foydalanamiz.",
+      "answerRu": "Мы используем роутер локализации Next.js и оптимизированные файлы словарей.",
+      "answerEn": "We use a dynamic App Router routing schema (e.g. /en/about) which guarantees unique search-indexable paths for search engines.",
+      "categoryUz": "Texnik",
+      "categoryRu": "Технологии",
+      "categoryEn": "tech",
+      "order": 2
+    }
+  ],
+  "settings": [
+    {
+      "id": "s1",
+      "key": "site_name",
+      "value": "BEXA Studio",
+      "description": "Name of the website"
+    },
+    {
+      "id": "s2",
+      "key": "hero_title_en",
+      "value": "WE SHAPE MINIMAL LUXURY DIGITAL EXPERIENCES",
+      "description": "En Hero Title"
+    },
+    {
+      "id": "s3",
+      "key": "hero_title_ru",
+      "value": "МЫ СОЗДАЕМ ЦИФРОВОЙ ОПЫТ МИНИМАЛЬНОГО ЛЮКСА",
+      "description": "Ru Hero Title"
+    },
+    {
+      "id": "s4",
+      "key": "hero_title_uz",
+      "value": "BIZ HASHAMATLI MINIMAL RAQAMLI TAJRIBALARNI SHAKLLANTIRAMIZ",
+      "description": "Uz Hero Title"
+    },
+    {
+      "id": "s5",
+      "key": "seo_description",
+      "value": "BEXA Studio is a creative design and high-performance frontend engineering agency specializing in modern aesthetics.",
+      "description": "Site SEO description"
+    },
+    {
+      "id": "s6",
+      "key": "contact_email",
+      "value": "hello@bexa.studio",
+      "description": "Global contact email"
+    },
+    {
+      "id": "s7",
+      "key": "contact_phone",
+      "value": "+998 71 202 22 44",
+      "description": "Global phone number"
+    },
+    {
+      "id": "s8",
+      "key": "facebook_link",
+      "value": "https://facebook.com",
+      "description": "Facebook Link"
+    },
+    {
+      "id": "s9",
+      "key": "twitter_link",
+      "value": "https://twitter.com",
+      "description": "Twitter Link"
+    },
+    {
+      "id": "s10",
+      "key": "instagram_link",
+      "value": "https://instagram.com",
+      "description": "Instagram Link"
+    },
+    {
+      "id": "s11",
+      "key": "linkedin_link",
+      "value": "https://linkedin.com",
+      "description": "LinkedIn Link"
+    },
+    {
+      "id": "s12",
+      "key": "github_link",
+      "value": "https://github.com",
+      "description": "GitHub Link"
+    }
+  ],
+  "translations": [
+    {
+      "id": "t1",
+      "key": "nav.home",
+      "uz": "Bosh Sahifa",
+      "ru": "Главная",
+      "en": "Home",
+      "category": "navigation"
+    },
+    {
+      "id": "t2",
+      "key": "nav.about",
+      "uz": "Biz Haqimizda",
+      "ru": "О Нас",
+      "en": "About",
+      "category": "navigation"
+    },
+    {
+      "id": "t3",
+      "key": "nav.whatWeDo",
+      "uz": "Xizmatlar",
+      "ru": "Услуги",
+      "en": "What We Do",
+      "category": "navigation"
+    },
+    {
+      "id": "t4",
+      "key": "nav.portfolio",
+      "uz": "Portfolio",
+      "ru": "Портфолио",
+      "en": "Portfolio",
+      "category": "navigation"
+    },
+    {
+      "id": "t5",
+      "key": "nav.team",
+      "uz": "Jamoa",
+      "ru": "Команда",
+      "en": "Team",
+      "category": "navigation"
+    },
+    {
+      "id": "t6",
+      "key": "nav.news",
+      "uz": "Yangiliklar",
+      "ru": "Новости",
+      "en": "News",
+      "category": "navigation"
+    },
+    {
+      "id": "t7",
+      "key": "nav.faq",
+      "uz": "Savol-Javob",
+      "ru": "FAQ",
+      "en": "FAQ",
+      "category": "navigation"
+    },
+    {
+      "id": "t8",
+      "key": "nav.contact",
+      "uz": "Aloqa",
+      "ru": "Контакты",
+      "en": "Contact",
+      "category": "navigation"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "log1",
+      "userId": "u1",
+      "action": "SYSTEM_SEED",
+      "details": "Database seeded with default super_admin and core assets",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-23T07:35:10.562Z"
+    },
+    {
+      "id": "0a1555c7-11d2-4449-b14d-332c5ac38342",
+      "userId": "u1",
+      "action": "USER_LOGIN",
+      "details": "User balu logged in successfully using hardcoded credentials (Role: super_admin)",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-23T09:50:31.286Z",
+      "updatedAt": "2026-05-23T09:50:31.287Z"
+    },
+    {
+      "id": "1ec370af-9e79-42b3-b49d-ba8af3a60749",
+      "userId": "u1",
+      "action": "USER_LOGOUT",
+      "details": "User logged out",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-23T09:52:01.759Z",
+      "updatedAt": "2026-05-23T09:52:01.759Z"
+    },
+    {
+      "id": "5d0acb89-f744-4b24-a22d-c4de928076ad",
+      "userId": "u1",
+      "action": "USER_LOGIN",
+      "details": "User balu logged in successfully using hardcoded credentials (Role: super_admin)",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-23T09:53:15.329Z",
+      "updatedAt": "2026-05-23T09:53:15.329Z"
+    },
+    {
+      "id": "d16f35d1-5775-4859-ba8b-6c08b273fcad",
+      "userId": "u1",
+      "action": "USER_LOGOUT",
+      "details": "User logged out",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-23T09:53:22.148Z",
+      "updatedAt": "2026-05-23T09:53:22.148Z"
+    },
+    {
+      "id": "74daa752-4e80-4182-9321-200871e1643c",
+      "userId": "u1",
+      "action": "USER_LOGIN",
+      "details": "User balu logged in successfully using hardcoded credentials (Role: super_admin)",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-23T09:58:01.055Z",
+      "updatedAt": "2026-05-23T09:58:01.055Z"
+    },
+    {
+      "id": "0da68741-d013-414e-b9c8-227e358f79af",
+      "userId": "u1",
+      "action": "USER_LOGOUT",
+      "details": "User logged out",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-23T09:58:39.882Z",
+      "updatedAt": "2026-05-23T09:58:39.882Z"
+    },
+    {
+      "id": "4efd84a7-b6a0-4fbd-9256-28e3f90e3361",
+      "userId": "u1",
+      "action": "USER_LOGIN",
+      "details": "User balu logged in successfully using hardcoded credentials (Role: super_admin)",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-23T10:21:19.118Z",
+      "updatedAt": "2026-05-23T10:21:19.118Z"
+    },
+    {
+      "id": "b4eaf345-9884-4026-80bb-73ce65db128c",
+      "userId": "u1",
+      "action": "USER_LOGOUT",
+      "details": "User logged out",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-23T10:21:28.271Z",
+      "updatedAt": "2026-05-23T10:21:28.271Z"
+    }
+  ]
+}

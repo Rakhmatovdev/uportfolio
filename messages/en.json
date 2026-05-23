@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "whatWeDo": "What We Do",
+    "portfolio": "Portfolio",
+    "team": "Team",
+    "news": "News",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Crafting premium digital experiences for tomorrow's visionaries.",
+    "newsletter": "Stay Updated",
+    "newsletterDesc": "Subscribe to our newsletter for insights, trends, and agency news.",
+    "emailPlaceholder": "Enter your email address",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved.",
+    "links": "Quick Links",
+    "services": "Services",
+    "contactInfo": "Connect"
+  },
+  "home": {
+    "hero": {
+      "tag": "CREATIVE DIGITAL STUDIO",
+      "title1": "Shaping the Future of",
+      "title2": "Digital Experiences",
+      "subtitle": "We fuse Apple-style minimalism, cutting-edge technology, and emotional design to create premium products that wow at first glance.",
+      "ctaPrimary": "Explore Portfolio",
+      "ctaSecondary": "Work With Us"
+    },
+    "stats": {
+      "projects": "Projects Delivered",
+      "experience": "Years of Excellence",
+      "satisfaction": "Client Satisfaction",
+      "awards": "Industry Awards"
+    },
+    "about": {
+      "tag": "WHO WE ARE",
+      "title": "We engineer brands that command attention and drive growth.",
+      "desc": "Our multidisciplinary team of designers, engineers, and brand strategists works together to transform ambitious businesses into industry-defining leaders. We don't just build websites; we craft digital legacies."
+    },
+    "cta": {
+      "title": "Ready to launch your next big idea?",
+      "subtitle": "Let's co-create something spectacular that sets your brand apart in the digital landscape.",
+      "button": "Get in Touch"
+    }
+  },
+  "about": {
+    "header": {
+      "title": "Who We Are",
+      "subtitle": "The minds, methods, and vision driving our digital craftsmanship."
+    },
+    "story": {
+      "title": "Our Story",
+      "subtitle": "From a bold idea in 2018 to an international design collective up to 2026.",
+      "2018": "Founded as a two-person design studio focused on premium typography and aesthetic minimalism.",
+      "2020": "Expanded into a full-service creative agency, bridging creative design with cutting-edge engineering.",
+      "2022": "Opened international nodes and received Awwwards recognition for our visual excellence.",
+      "2024": "Leading the transition to AI-augmented spatial interfaces and high-performance immersive web applications.",
+      "2026": "Pioneering highly autonomous agentic systems and hyper-personalized spatial user ecosystems."
+    },
+    "stats": {
+      "experience": "Years in Business",
+      "team": "Global Minds",
+      "clients": "Happy Partners",
+      "growth": "Average Brand Growth"
+    },
+    "mission": {
+      "title": "Mission & Vision",
+      "missionTitle": "Our Mission",
+      "missionDesc": "To build products that feel alive, intuitive, and visually supreme, raising the standard of human-computer interaction.",
+      "visionTitle": "Our Vision",
+      "visionDesc": "To be the ultimate creative partner for brands seeking to transcend standard digital boundaries and command industry respect."
+    }
+  },
+  "whatWeDo": {
+    "header": {
+      "title": "What We Do",
+      "subtitle": "We design and engineer bespoke solutions that elevate digital experiences."
+    },
+    "services": {
+      "design": {
+        "title": "Aesthetic UI/UX Design",
+        "desc": "Immersive interfaces, visual systems, and bespoke design structures that feel premium and command absolute attention."
+      },
+      "development": {
+        "title": "Full-Stack Engineering",
+        "desc": "High-fidelity Next.js web systems, performance-focused apps, and flawless, pixel-perfect layouts designed to scale."
+      },
+      "branding": {
+        "title": "Identity & Strategy",
+        "desc": "We build cohesive visual languages, typography systems, and market positioning that define modern brands."
+      },
+      "immersive": {
+        "title": "3D & Immersive Tech",
+        "desc": "Web-based interactive 3D structures, motion transitions, and interactive models that keep users thoroughly engaged."
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "subtitle": "A meticulous, highly collaborative framework from concept to launch.",
+      "discover": "1. Discovery",
+      "discoverDesc": "We dive deep into your brand, target demographic, goals, and technological landscape.",
+      "design": "2. Visual Design",
+      "designDesc": "We experiment, prototype, and refine the interface aesthetics until it is jaw-droppingly premium.",
+      "develop": "3. High-Tech Build",
+      "developDesc": "We engineer the designs using modular Next.js, Framer Motion, and robust server infrastructure.",
+      "deliver": "4. Launch & Evolve",
+      "deliverDesc": "We optimize, stress-test, deploy, and continuously iterate to keep you ahead of the curve."
+    }
+  },
+  "portfolio": {
+    "header": {
+      "title": "Selected Works",
+      "subtitle": "A gallery of digital products where aesthetics meet high performance."
+    },
+    "categories": {
+      "all": "All Work",
+      "design": "Creative Design",
+      "development": "Web Dev",
+      "branding": "Branding",
+      "threeD": "3D Immersive"
+    },
+    "details": {
+      "client": "Client",
+      "year": "Year",
+      "services": "Services",
+      "overview": "Overview",
+      "results": "Impact & Results",
+      "visit": "Visit Live Project",
+      "close": "Close"
+    }
+  },
+  "team": {
+    "header": {
+      "title": "Meet the Collective",
+      "subtitle": "An elite assembly of developers, designers, and creative leaders."
+    },
+    "departments": {
+      "all": "All Minds",
+      "design": "Designers",
+      "engineering": "Engineers",
+      "strategy": "Strategists",
+      "management": "Leadership"
+    },
+    "viewBio": "View Profile"
+  },
+  "news": {
+    "header": {
+      "title": "Agency Journal",
+      "subtitle": "Our thoughts on typography, front-end architecture, and the design space."
+    },
+    "searchPlaceholder": "Search articles...",
+    "readTime": "min read",
+    "featured": "Featured Story",
+    "noResults": "No articles found matching your criteria.",
+    "categories": {
+      "all": "All Articles",
+      "trends": "Design Trends",
+      "tech": "Engineering",
+      "business": "Agency News"
+    }
+  },
+  "faq": {
+    "header": {
+      "title": "Got Questions?",
+      "subtitle": "Everything you need to know about our visual workflows, systems, and processes."
+    },
+    "searchPlaceholder": "Search FAQs...",
+    "noResults": "No answers found. Try a different search term.",
+    "categories": {
+      "all": "All",
+      "general": "General",
+      "process": "Workflow",
+      "tech": "Technology",
+      "pricing": "Engagement"
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Start a Project",
+      "subtitle": "Let's connect and design the future together."
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "message": "Tell us about your project",
+      "messagePlaceholder": "Describe your vision, budget, and timeline...",
+      "submit": "Send Message",
+      "sending": "Transmitting...",
+      "successTitle": "Message Transmitted!",
+      "successDesc": "Our design architect will review your brief and connect within 24 hours.",
+      "error": "Failed to transmit message. Please try again."
+    },
+    "info": {
+      "office": "Studio Location",
+      "socials": "Social Ecosystem",
+      "address": "7/1 Muminov Street, Tashkent, Uzbekistan, 100164"
+    }
+  },
+  "ui": {
+    "page404": {
+      "title": "Lost in Space",
+      "desc": "The page you are looking for has floated out of our digital atmosphere.",
+      "button": "Return to Station"
+    }
+  }
+}

@@ -1,0 +1,165 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           String        @id @default(cuid())
+  username     String        @unique
+  email        String        @unique
+  passwordHash String
+  phone        String?
+  roleId       String
+  role         Role          @relation(fields: [roleId], references: [id])
+  sessions     Session[]
+  accounts     Account[]
+  activityLogs ActivityLog[]
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+}
+
+model Role {
+  id          String       @id @default(cuid())
+  name        String       @unique // e.g. super_admin, admin, editor, moderator, user
+  description String?
+  permissions Permission[] @relation("RoleToPermission")
+  users       User[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+}
+
+model Permission {
+  id          String   @id @default(cuid())
+  name        String   @unique // e.g. create, update, delete, publish, manage_users, manage_roles, manage_settings, manage_content
+  description String?
+  roles       Role[]   @relation("RoleToPermission")
+  createdAt   DateTime @default(now())
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expires      DateTime
+  createdAt    DateTime @default(now())
+}
+
+model Account {
+  id                String   @id @default(cuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?  @db.Text
+  access_token      String?  @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?  @db.Text
+  session_state     String?
+  createdAt         DateTime @default(now())
+
+  @@unique([provider, providerAccountId])
+}
+
+model Portfolio {
+  id            String   @id @default(cuid())
+  titleUz       String
+  titleRu       String
+  titleEn       String
+  categoryUz    String
+  categoryRu    String
+  categoryEn    String
+  image         String
+  descriptionUz String   @db.Text
+  descriptionRu String   @db.Text
+  descriptionEn String   @db.Text
+  link          String?
+  order         Int      @default(0)
+  featured      Boolean  @default(false)
+  createdAt     DateTime @default(now())
+}
+
+model News {
+  id         String   @id @default(cuid())
+  titleUz    String
+  titleRu    String
+  titleEn    String
+  contentUz  String   @db.Text
+  contentRu  String   @db.Text
+  contentEn  String   @db.Text
+  image      String
+  categoryUz String
+  categoryRu String
+  categoryEn String
+  date       String
+  authorUz   String
+  authorRu   String
+  authorEn   String
+  slug       String   @unique
+  featured   Boolean  @default(false)
+  createdAt  DateTime @default(now())
+}
+
+model TeamMember {
+  id        String   @id @default(cuid())
+  name      String
+  roleUz    String
+  roleRu    String
+  roleEn    String
+  image     String
+  order     Int      @default(0)
+  twitter   String?
+  github    String?
+  linkedin  String?
+  createdAt DateTime @default(now())
+}
+
+model FAQ {
+  id         String   @id @default(cuid())
+  questionUz String
+  questionRu String
+  questionEn String
+  answerUz   String   @db.Text
+  answerRu   String   @db.Text
+  answerEn   String   @db.Text
+  categoryUz String
+  categoryRu String
+  categoryEn String
+  order      Int      @default(0)
+  createdAt  DateTime @default(now())
+}
+
+model Settings {
+  id          String   @id @default(cuid())
+  key         String   @unique
+  value       String   @db.Text
+  description String?
+  updatedAt   DateTime @updatedAt
+}
+
+model Translation {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  uz        String   @db.Text
+  ru        String   @db.Text
+  en        String   @db.Text
+  category  String   @default("general")
+  updatedAt DateTime @updatedAt
+}
+
+model ActivityLog {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  action    String
+  details   String?  @db.Text
+  ipAddress String?
+  createdAt DateTime @default(now())
+}
